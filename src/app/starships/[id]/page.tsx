@@ -18,7 +18,8 @@ export default function ItemDetails() {
   }, [id]);
 
   if (!starship) {
-    return <div>Item not found</div>;
+    // Loading animation
+    return <></>;
   }
 
   return (

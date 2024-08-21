@@ -18,7 +18,7 @@ export default function ItemDetails() {
   }, [id]);
 
   if (!movie) {
-    return <div>Item not found</div>;
+    return <></>;
   }
 
   return (

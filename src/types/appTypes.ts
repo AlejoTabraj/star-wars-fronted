@@ -76,3 +76,11 @@ export interface IFilm {
     url: string;
   }
   
+  export interface IQueryResponse <T> {
+    documents: T[];
+    totalPages: number;
+  }
+
+  export interface SearchBarProps {
+    setKeyWord: React.Dispatch<React.SetStateAction<string>>;
+  }
