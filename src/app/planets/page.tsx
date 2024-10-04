@@ -7,7 +7,7 @@ import { IPlanet, IQueryResponse } from '@/types/appTypes';
 import { keepPreviousData, useQuery } from '@tanstack/react-query';
 import SearchBar from '@/components/SearchBar';
 
-
+// hola
 export default function People() {
   const [currentPage, setCurrentPage] = useState<number>(1);
   const [keyWord, setKeyWord] = useState<string>('');
